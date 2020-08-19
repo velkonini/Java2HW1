@@ -12,10 +12,5 @@ public enum WorkingDays {
         return workingHours;
     }
 
-    public void weekend(){
-        if (workingHours == 0){
-            System.out.println("Сегодня выходной");
 
-        }
-    }
 }
